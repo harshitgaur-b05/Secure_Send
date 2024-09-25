@@ -13,7 +13,7 @@ export const Dashboard = () => {
         const fetchBalance = async () => {
             try {
                 const token = localStorage.getItem('token'); // Get the token from local storage
-                const response = await axios.get("http://localhost:3300/api/v1/account/balance", {
+                const response = await axios.get("https://secure-send-backend.onrender.com/account/balance", {
                     headers: {
                         Authorization: `Bearer ${token}`, // Include the token in headers
                     },

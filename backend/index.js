@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json())
 dotenv.config();
 
-app.use("/api/v1",mainRouter)
+app.use("",mainRouter)
 
 
 

@@ -29,7 +29,7 @@ export const SendMoney = () => {
 
             console.log(id);
             console.log(amount);
-            const response = await axios.post("http://localhost:3300/api/v1/account/transfer", {
+            const response = await axios.post("https://secure-send-backend.onrender.com/account/transfer", {
                 to: id,
                 amount: Number(amount) // Convert to number
             }, {

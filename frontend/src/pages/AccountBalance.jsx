@@ -28,7 +28,7 @@ const AccountBalance = () => {
 
             // Make API call to create the account
             const response = await axios.post(
-                'http://localhost:3300/api/v1/account/create',
+                'https://secure-send-backend.onrender.com/account/create',
                 { initialBalance, token }
             );
 

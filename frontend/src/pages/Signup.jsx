@@ -23,7 +23,7 @@ export const Signup = () => {
         setLoading(true); // Set loading to true
 
         try {
-            const response = await axios.post("http://localhost:3300/api/v1/user/signup", {
+            const response = await axios.post("https://secure-send-backend.onrender.com/user/signup", {
                 username,
                 password,
                 firstname,
