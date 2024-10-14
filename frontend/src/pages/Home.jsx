@@ -18,8 +18,9 @@ const HomePage = () => {
                         Sign Up
                     </button>
                 </Link>
-                <>works bw 11am  to 5 pm due to database due  to  interactions with mongodb </>
+               
             </div>
+            <h3>works bw 11am  to 5 pm due to database due  to  interactions with mongodb </h3>
         </div>
     );
 };
