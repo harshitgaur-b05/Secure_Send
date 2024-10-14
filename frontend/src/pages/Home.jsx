@@ -12,11 +12,13 @@ const HomePage = () => {
                         Sign In
                     </button>
                 </Link> */}
+
                 <Link to="/signup">
                     <button className="bg-green-500 text-white px-4 py-2 rounded">
                         Sign Up
                     </button>
                 </Link>
+                <>works bw 11am  to 5 pm due to database due  to  interactions with mongodb </>
             </div>
         </div>
     );
